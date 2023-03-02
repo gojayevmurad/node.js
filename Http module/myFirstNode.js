@@ -29,26 +29,3 @@ var http = require("http");
 //   .listen(8080);
 
 var fs = require("fs");
-
-// http //! node js file system module
-//   .createServer(function (req, res) {
-//     fs.readFile("demoHTML.html", function (err, data) {
-//       res.writeHead(200, { "Content-Type": "text/html" });
-//       res.write(data);
-//       return res.end();
-//     });
-//   })
-//   .listen(8080);
-
-// http //! create 100 newfile(i).txt ;)
-//   .createServer(function (res, req) {
-//     for (let i = 0; i < 100; i++) {
-//       fs.appendFile(`newfile${i}.txt`, "Hello content!", function (err) {
-//         if (err) throw err;
-//         console.log(Saved);
-//       });
-//     }
-//   })
-//   .listen(8080);
-
-
